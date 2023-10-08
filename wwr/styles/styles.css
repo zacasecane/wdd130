@@ -1,0 +1,8 @@
+div {
+    max-width: 1600px;
+    min-width: none;
+}
+
+#content{
+    margin: 0 auto;
+}
