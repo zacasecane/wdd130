@@ -1,0 +1,21 @@
+img {
+    width: 80%;
+    display: inline;
+    margin: 1.5em;
+}
+
+p {
+    width: 80%;
+    color: blue;
+}
+
+a {
+    font-size: 1.5em;
+    color: aquamarine;
+    display: inline;
+}
+
+h1{
+    font-style: italic;
+    color: blue;
+}
