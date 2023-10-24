@@ -13,14 +13,11 @@ h1 {
 
 nav {
     background-color: steelblue;
+    padding: 25px;
 }
 
 a {
     color: white;
-    padding: 25px;
-}
-
-nav {
     padding: 25px;
 }
 
