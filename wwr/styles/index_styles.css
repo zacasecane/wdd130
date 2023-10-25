@@ -9,8 +9,8 @@ div, #content {
 }
 #logo-box{
     text-align: center;
-    align-items: center;
     padding: 10px;
+    margin: 15px;
 }
 #banner-box {
     margin: 10px 15px;
@@ -47,7 +47,6 @@ main section{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 30%;
-    border-color: blueviolet;
 }
 img.mountains{
     text-align: center;
@@ -66,6 +65,7 @@ header{
     width: fit-content;
     border: 2px solid rgb(0, 255, 42);
     padding: 10px;
+    align-items: center;
 }
 header section{
     text-align: center;
@@ -75,7 +75,7 @@ header section{
 nav a:hover{
     background-color: palegreen;
 }
-.book, .join{
+.book, a.join{
     background-color: aqua;
     background-size: cover;
     text-decoration: none;
@@ -93,6 +93,8 @@ nav a:hover{
     padding-top: 20px;
     border-radius: 50%;
     border:rgb(42, 165, 58);
+    border-color: blueviolet;
+    border: 2px solid rgb(255, 0, 234);
 }
 footer{
     background-color: turquoise;
@@ -100,6 +102,13 @@ footer{
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
+    border:rgb(42, 165, 58);
+    border-color: blueviolet;
+    border: 2px solid rgb(255, 0, 234);
+    width: fit-content;
+    height: fit-content;
+    margin: 10px 15px;
+    
 }
 footer a{
     color: yellow;
@@ -116,9 +125,9 @@ footer p a:hover {
 #social-network{
     image-rendering: auto;
     border-image-width: auto;
-    text-align: center;
+    border-radius: 50%;
 }
-img.icon {
+.icon {
     width: 80px;
     border-radius: 50%;
     border-color: yellowgreen;
