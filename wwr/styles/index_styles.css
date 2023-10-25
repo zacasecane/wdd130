@@ -1,51 +1,87 @@
-div, content {
+div, #content {
     max-width: 1600px;
-    min-width: none;
-}
-
-#content{
+    min-width: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 10px 5px;
     margin: 0 auto;
+    text-align: center;
+}
+#logo-box{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+#banner-box {
+    margin: 10px 15px;
+    padding: 5px;
 }
 nav a{
     text-align: center;
     color: blue;
     text-decoration: none;
+    font-size: medium;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     color: black;
+    padding: 10px;
 }
-
 .home-title{
     color: brown;
+    padding: 5px;
 }
 .button-box{
     text-align: center;
+    padding: 5px;
 }
 main section{
     text-align: center;
+    padding: 10px;
+    margin: 5px;
 }
 #background {
     height: 600px;
-    background-color: rgb(42, 165, 58);
+    background-color: rgb(42, 165, 42);
+    margin: 20px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30%;
+    border-color: blueviolet;
 }
-
+img.mountains{
+    text-align: center;
+    margin: 10px 15px;
+    padding: 5px;
+}
 body{
     background-color: aqua;
     color: gray;
 }
 header{
-    background-color: olivedrab;
+    background-color: rgb(120, 131, 133);
     font-size: 40px;
     text-align: center;
     color: bisque;
+    width: fit-content;
+    border: 2px solid rgb(0, 255, 42);
+    padding: 10px;
+}
+header section{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
 }
 nav a:hover{
     background-color: palegreen;
 }
 .book, .join{
     background-color: aqua;
+    background-size: cover;
     text-decoration: none;
+    border-radius: 50%;
+    border-color: brown;
+    margin: 5px 10px;
 }
 .book:hover, .join:hover{
     background-color: rgb(255, 0, 255);
@@ -54,36 +90,56 @@ nav a:hover{
     background-color: skyblue;
     font-size: 30px;
     color: blueviolet;
+    padding-top: 20px;
+    border-radius: 50%;
+    border:rgb(42, 165, 58);
 }
 footer{
     background-color: turquoise;
     inline-size: auto;
     color: whitesmoke;
     text-decoration: none;
+    text-align: center;
 }
-
 footer a{
     color: yellow;
 }
-
 footer p {
     font-size: 1.2em;
 }   
-
 footer a:hover{
     color: yellowgreen;
 }
-
 footer p a:hover {
     text-decoration: underline;
-} 
-
+}
 #social-network{
     image-rendering: auto;
     border-image-width: auto;
     text-align: center;
 }
-
-.icon {
+img.icon {
     width: 80px;
+    border-radius: 50%;
+    border-color: yellowgreen;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+#river{
+    margin: 20px;
+}
+a, h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
